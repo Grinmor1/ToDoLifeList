@@ -1,0 +1,25 @@
+<div class="top-menu">
+
+  <img class="logo"
+       src="../assets/copybook.png">
+
+       <p class="title-text">YOUR LIFE IS HERE!</p>
+</div>
+
+<div>
+
+  <div class="todo-list" *ngIf = "categories$ | async as categories">
+
+    <todo-note *ngFor="let category of categories"
+    (categoryChanged)="saveCategory($event)"
+    [category]="category"
+    ></todo-note>
+   
+  </div>
+
+
+</div>
+
+
+
+

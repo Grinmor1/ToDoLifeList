@@ -1,0 +1,33 @@
+
+
+.top-menu {
+    background: #0256c4;
+    padding: 2px 15px;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, .2), 0 2px 8px 0 rgba(0, 0, 0, .14), 0 4px 8px -1px rgba(0, 0, 0, .12);
+}
+
+.logo {
+  max-height: 65px;
+  margin: 5px 10px 5px 2px;
+}
+
+.title-text{
+color: honeydew;
+  font: 24px 'Roboto';
+}
+
+.courses {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+
+.todo-list{
+  max-width: 400px;
+
+  display: flex;
+}
+
+
